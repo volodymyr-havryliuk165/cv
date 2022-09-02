@@ -4,7 +4,7 @@ import PersonalInfo from '../components/PersonalInfo';
 import Links from '../components/Links';
 const Home: NextPage = () => {
   return (
-    <div className='flex min-h-screen flex-col items-center bg-gray-900 py-5 text-neutral-100 print:min-h-[200vh]'>
+    <div className='flex min-h-screen flex-col items-center bg-gray-900 py-5 text-neutral-100 print:min-h-[200vh] lg:justify-center'>
       <div className='flex w-[70%] flex-col justify-center gap-8 lg:flex-row'>
         <section className='flex basis-1/3 flex-col print:mt-28'>
           <header className='rounded-t-2xl bg-gray-700'>
