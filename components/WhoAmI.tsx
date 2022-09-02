@@ -1,11 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
+import me from '../public/my-photo.jpg';
 
 const WhoAmI = () => {
   return (
     <div className='p-8 text-center'>
       <Image
-        src='/../public/my-photo.jpg'
+        src={me}
         width={150}
         height={200}
         alt='my photo'
